@@ -14,3 +14,10 @@
 Route::get('/', 'AngularController@serveApp');
 
 Route::get('/unsupported-browser', 'AngularController@unsupported');
+
+$api->group([],function($api){
+    $api->post('users/login','LoginController@login');	
+    $api->post('posts', 'CreatePostController@create')	;	   
+});
+
+//Route::post('posts', 'CreatePostController@create');
