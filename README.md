@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Laravel 5.3 Angular Material Starter
 
 [![Latest Stable Version](https://poser.pugx.org/jadjoubran/laravel5-angular-material-starter/v/stable)](https://packagist.org/packages/jadjoubran/laravel5-angular-material-starter)
@@ -52,3 +53,7 @@ Thank you for contributing to this repository.
 Here are the guidelines:
 
 1. If you are adding/modifying backend functionality, make sure to include the appropriate `test`. Let me know if you need help writing the test.
+=======
+# LaraAngularPosts
+Laravel backend, Angular forntend based app for manipualting posts- Used Angular Laravel Material Starter package
+>>>>>>> d120e1d777015923089ff25c25d8b6f840c7f8a1
