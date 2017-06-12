@@ -38,6 +38,7 @@
         link.rel = "stylesheet";
         document.body.appendChild(link);
     })();
+
     </script>
 
     <script src="{!! elixir('js/final.js') !!}" async></script>

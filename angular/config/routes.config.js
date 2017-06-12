@@ -14,7 +14,7 @@ export function RoutesConfig($stateProvider, $urlRouterProvider) {
     */
 
 	$stateProvider
-		.state('app', {
+		.state('app', { 
 			abstract: true,
             data: {},
 			views: {
@@ -65,6 +65,14 @@ export function RoutesConfig($stateProvider, $urlRouterProvider) {
                 'main@': {
                     templateUrl: getView('reset-password')
                 }
+            }
+        })
+        .state('app.create_post', {
+            url: '/create-post',
+            views: {
+              'main@': {
+                templateUrl: getView('create_post')
+              }
             }
         });
 }
